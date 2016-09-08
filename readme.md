@@ -7,6 +7,11 @@ RoastLearner also includes tools to train classification engines against data re
 
 RoastLearner acts as a "shell" for the excellent [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) audio classification toolkit.  The RoastLearner distribution also includes compiled binaries for [SoX](http://sox.sourceforge.net/) to record audio from your default microphone.
 
+Here's a video demonstrating the classifiers in action during a roast being controlled by Artisan.
+
+[![RoastLearner video](documentation/images/Artisan_YouTube_Screenshot.png?raw=true)](https://www.youtube.com/watch?v=CqgeNr_wXbY&t=560)
+
+
 ### Requirements
 * RoastLearner currently supports Windows installations only.
 * [Artisan](https://github.com/artisan-roaster-scope/artisan) 1.0 or above
