@@ -1,6 +1,6 @@
 # RoastLearner Installation
 
-### Software Overview
+### [Software Overview](#Software-Overview)
 RoastLearner is a collection of scripts which coordinates the recording of audio during a roast, handing the recordings to trained "classifiers" every second or so, and collecting the results from each run of the classifier to be displayed in Artisan.
 
 There are 5 scripts involved in this process:
