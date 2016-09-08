@@ -1,5 +1,5 @@
 # [RoastLearner](#RoastLearner)
-#### Machine learning audio classification engine for Artisan
+### Machine learning audio classification engine for Artisan
 
 RoastLearner allows your computer to "hear" the sounds of first crack while roasting with the [Artisan Roaster Scope](https://github.com/artisan-roaster-scope/artisan) software.  RoastLearner uses a microphone to record the sound of your roast, provides a platform to *train* the sounds made during that process, and then runs the trained *classifiers* during future roasts to *classify* what it's "hearing" while sending the results to Artisan in (near) real time.
 
@@ -17,7 +17,7 @@ Here's a video demonstrating the classifiers in action during a roast being cont
 * RoastLearner currently supports Windows installations only.
 * [Artisan](https://github.com/artisan-roaster-scope/artisan) 1.0 or above
 * Python 2.7 for Windows and a pile of additional modules.  [Read here](documentation/Deploy_Python27.md) for detailed installation instructions on setting up the Python environment.
-* A microphone positioned somewhere where it can pick up the sounds from your roaster.  This was developed with a cheap $7 USB microphone, so nothing fancy is required here.  The microphone must be set as the default recording device in Windows.
+* A microphone positioned somewhere where it can pick up the sounds from your roaster.  This was developed with [a cheap $9 USB microphone](https://www.amazon.com/gp/product/B014MASID4) so nothing fancy is required here.  The microphone must be set as the default recording device in Windows.
 
 ### [Getting Started](#Getting-Started)
 1. [Install Artisan](https://github.com/artisan-roaster-scope/artisan/blob/master/wiki/Installation.md) to the default location.

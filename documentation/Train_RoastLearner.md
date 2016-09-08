@@ -33,3 +33,5 @@ I've found that the PyAudioAnalysis training process tends to bomb out on any ha
 Once you've manually classified sounds into "environment" and "firstcrack" you can train your first classifier.  Open the "RoastLearner Recordings" on your desktop and run the link labeled "Re-train Classifiers".  This will backup any previously trained classifiers and then create new models based on the WAV files you manually classified.
 
 At the end of each training session a *[confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix)* is displayed giving you a sense of how well the new models perform against the existing data.
+
+I'd strongly recommend reading through [this paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144610) covering the capabilities of pyAudioAnalysis if you'd like further detail on how this works and how best to use it in your environment.
