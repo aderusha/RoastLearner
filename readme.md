@@ -7,7 +7,7 @@ RoastLearner is a collection of scripts to record audio samples during the coffe
 
 RoastLearner also includes tools to train classification engines against data recorded from previous roasts.
 
-RoastLearner acts as a "shell" for the excellent [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) audio classification toolkit.  The RoastLearner distribution also includes compiled binaries for [SoX](http://sox.sourceforge.net/) to record audio from your default microphone.
+RoastLearner acts as a wrapper for the excellent [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) audio classification toolkit.  The RoastLearner distribution also includes compiled binaries for [SoX](http://sox.sourceforge.net/) to record audio from your default microphone.
 
 Here's a video demonstrating the classifiers in action during a roast being controlled by Artisan.
 
