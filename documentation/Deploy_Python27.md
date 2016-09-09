@@ -31,9 +31,7 @@ RoastLearner requires the installation of Python 2.7 for Windows along with seve
 
 * Now we can install the required libraries. Paste the following to get everything rolled out:
 
-
 `pip install matplotlib sklearn hmmlearn simplejson eyed3`
-
 
 #### Download and test pyAudioAnalysis
 * Open the Git Shell from the desktop icon deployed when you installed Github Desktop for Windows
@@ -44,12 +42,11 @@ RoastLearner requires the installation of Python 2.7 for Windows along with seve
 * Close the Github Powershell window and go back to your original console session
 * Change to the new folder:
 
-
-    cd /d C:\Python27\scripts\pyAudioAnalysis
+`cd /d C:\Python27\scripts\pyAudioAnalysis`
 
 Finally, test the installation by running an analysis against the included test data:
 
-    python audioAnalysis.py fileChromagram -i data/doremi.wav
+`python audioAnalysis.py fileChromagram -i data/doremi.wav`
 
 If everything worked correctly the script should open a window that looks something like this:
 
