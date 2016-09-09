@@ -15,6 +15,7 @@ RoastLearner requires the installation of Python 2.7 for Windows along with seve
 * Open an admin command prompt
 * You'll likely start in C:\WINDOWS\system32, so let's head over to the default Python scripts folder before we begin:
 
+
     cd /d C:\Python27\Scripts
 
 * Paste the following to make sure pip is all up-to-date. *The first command kicked out a bunch of red errors but worked anyway.*
