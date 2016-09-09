@@ -7,7 +7,7 @@ There are 5 scripts involved in this process:
 
 `start_recording.cmd` Called at the start of your roast by Artisan, this script will launch several other processes which will run in the background.  It creates a new folder to save the current roast recording.  It will launch SoX.exe in the background to record audio from your microphone and save the results in the recording folder as 1-second chunks.  Finally, it will launch the classifiers which will run in the background to monitor output from SoX.
 
-`classify_segment.cmd` This script monitors the recorded output folder for new WAV files.  When a new recording is found, it will launch a classifier to examine the recording and will collect the output from the classifier.  This script can be run several times to run more than one classification engine.  The output from each running classifier is saved to a temporary folder.
+`classify_segment.cmd` This script monitors the recording output folder for new WAV files.  When a new recording is found, it will launch a classifier to examine the recording and will collect the output from the classifier.  This script can be run several times to run more than one classification engine.  The output from each running classifier is saved to a temporary folder.
 
 `external_program_data.cmd` This script is called every sample interval by Artisan to collect data saved to a temporary file by `classify_segment.cmd` and to output that data in a format that Artisan can ingest.
 
