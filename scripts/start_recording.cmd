@@ -21,6 +21,21 @@ set file_classifyknn="%TEMP%\classifyknn-values.txt"
 if exist %file_classifysvm% del %file_classifysvm%
 if exist %file_classifyknn% del %file_classifyknn%
 
+:: Kill running processes
+taskkill /IM cmd.exe /FI "WINDOWTITLE eq KNN Classifier Process*"
+taskkill /IM cmd.exe /FI "WINDOWTITLE eq SVM Classifier Process*"
+taskkill /IM sox.exe /FI "WINDOWTITLE eq Recording audio to*"
+
+:: Clear out remaining files
+set file_classifysvm="%TEMP%\classifysvm-values.txt"
+set file_classifyknn="%TEMP%\classifyknn-values.txt"
+if exist %file_classifysvm% del %file_classifysvm%
+if exist %file_classifyknn% del %file_classifyknn%
+if exist %temp%\svm-*.wav del %temp%\svm-*.wav
+if exist %temp%\svm-*.tmp del %temp%\svm-*.tmp
+if exist %temp%\knn-*.wav del %temp%\knn-*.wav
+if exist %temp%\knn-*.tmp del %temp%\knn-*.tmp
+
 :: Each recording session will need to be saved in its own folder.
 :: Generate a timestamp in a format similar to Artisan and create the new folder
 set hr=%time:~0,2%
