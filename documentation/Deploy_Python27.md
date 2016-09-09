@@ -1,5 +1,5 @@
 # [Python Deployment for RoastLearner](#Python-Deployment-for-RoastLearner)
-RoastLearner currently requires the installation of Python 2.7 for Windows along with several additional modules in order to execute the [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) scripts.
+RoastLearner requires the installation of Python 2.7 for Windows along with several additional modules in order to execute the [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) scripts.
 
 #### Download and install the development environment tools:
 
