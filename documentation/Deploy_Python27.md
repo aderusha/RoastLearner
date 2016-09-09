@@ -22,12 +22,14 @@ RoastLearner requires the installation of Python 2.7 for Windows along with seve
 
 
     pip install --upgrade pip
+    
     pip install --upgrade urllib3[secure]
 
 * Install the two compiled libraries you've downloaded. Replace <path to downloads> with the full path to wherever you've deposited these things, add quotes if spaces are involved.
 
 
     pip install <path to downloads>\numpy-1.11.1+mkl-cp27-cp27m-win32.whl
+    
     pip install <path to downloads>\scipy-0.18.0-cp27-cp27m-win32.whl
 
 
